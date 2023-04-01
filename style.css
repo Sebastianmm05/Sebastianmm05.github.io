@@ -4,7 +4,7 @@ body {
 }
 header{
     padding: 20px 30px;
-    background-color: rgba(68, 68, 255, 0.598);
+    background-color: rgb(68, 68, 255);
     font-size: 2rem;
     color: #fff;
 }
