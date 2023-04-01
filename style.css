@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 20px 30px;
+    background-color: rgba(68, 68, 255, 0.598);
+    font-size: 2rem;
+    color: #fff;
+}
+article{
+    margin: 10px 10px;
+}
+.members{
+    margin-bottom: 20px;
+}
+.members > section{
+    width: 26%;
+    padding-left: 10px;
+    height: 150px;
+    margin: 20px 20px;
+    overflow: scroll;
+    display: inline-block;
+    border-left: 2px solid #ccc;
+}
+.members > section > img{
+    height: 50%;
+    border-radius: 20px;
+    margin:0 20px;
+    float: left;
+}
+.members > section > p::first-line{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.estudio section{
+    background-color: #eee;
+    padding: 10px 20px;
+    width: 95%;
+    margin-left: calc(2.5% - 20px);
+    margin-bottom: 20px;
+}
+.estudio section p:first-child{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.estudio img{
+    max-width: 33%;
+}
+h2{
+    text-align: center;
+}
+.obj{
+    margin-left: calc(27.5vw - 20px);
+    width: 45vw;
+    height: 45vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: 
+    "a b"
+    "c c";
+    grid-gap:10px 10px;
+}
+.obj section:nth-child(1){
+    grid-area: a;
+}
+.obj section:nth-child(2){
+    grid-area: b;
+}
+.obj section:nth-child(3){
+    grid-area: c;
+}
+.obj >  section{
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+footer{
+    background-color: #eee;
+    padding: 3mm 4mm;
+    color: #fff;
+}
+footer img{
+    height: 1.5cm;
+}
