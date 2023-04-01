@@ -15,6 +15,7 @@ header img{
     height: 3.3rem;
     float: right;
     border-radius: 20px;
+
 }
 header p:last-child{
     margin-top: 10px;
@@ -27,7 +28,7 @@ article{
     margin-bottom: 20px;
 }
 .members > section{
-    width: 26%;
+    width: calc(33% - 52px);
     padding-left: 10px;
     height: 150px;
     margin: 20px 20px;
@@ -58,6 +59,7 @@ article{
 }
 .estudio img{
     max-width: 33%;
+    margin-bottom: 10px;
 }
 h2{
     text-align: center;
@@ -73,9 +75,6 @@ h2{
     "a b"
     "c c";
     grid-gap:10px 10px;
-}
-@media screen {
-    
 }
 .obj section:nth-child(1){
     grid-area: a;
