@@ -8,6 +8,18 @@ header{
     font-size: 2rem;
     color: #fff;
 }
+header p{
+    margin: 0 0;
+}
+header img{
+    height: 3.3rem;
+    float: right;
+    border-radius: 20px;
+}
+header p:last-child{
+    margin-top: 10px;
+    font-size: 1rem;
+}
 article{
     margin: 10px 10px;
 }
@@ -61,6 +73,9 @@ h2{
     "a b"
     "c c";
     grid-gap:10px 10px;
+}
+@media screen {
+    
 }
 .obj section:nth-child(1){
     grid-area: a;
